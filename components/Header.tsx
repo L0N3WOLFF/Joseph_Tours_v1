@@ -1,3 +1,4 @@
+
 /**
  * @file Header.tsx
  * @description Componente de la cabecera de navegación principal.
@@ -6,7 +7,7 @@
  * Implementa una función de desplazamiento suave (smooth scroll) al hacer clic en los enlaces.
  */
 import React, { useState, useEffect, useMemo } from 'react';
-import { useApp } from '../contexts/AppContext.tsx';
+import { useApp } from '../contexts/AppContext';
 
 const Header: React.FC = () => {
   // Hook de contexto para acceder a traducciones y estado global.

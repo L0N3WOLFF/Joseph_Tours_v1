@@ -1,3 +1,4 @@
+
 /**
  * @file App.tsx
  * @description Componente raíz de la aplicación.
@@ -7,16 +8,16 @@
  * como el idioma y el estado del scroll, a todos los componentes hijos.
  */
 import React from 'react';
-import Header from './components/Header.tsx';
-import Hero from './components/Hero.tsx';
-import AboutUs from './components/AboutUs.tsx';
-import TripPlanner from './components/TripPlanner.tsx';
-import TravelInfo from './components/TravelInfo.tsx';
-import Gallery from './components/Gallery.tsx';
-import Contact from './components/Contact.tsx';
-import Footer from './components/Footer.tsx';
-import ReturnPolicy from './components/ReturnPolicy.tsx';
-import { AppProvider } from './contexts/AppContext.tsx';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
+import TripPlanner from './components/TripPlanner';
+import TravelInfo from './components/TravelInfo';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import ReturnPolicy from './components/ReturnPolicy';
+import { AppProvider } from './contexts/AppContext';
 
 const App: React.FC = () => {
   return (

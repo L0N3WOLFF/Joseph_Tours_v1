@@ -1,3 +1,4 @@
+
 /**
  * @file Contact.tsx
  * @description Componente de la sección de contacto.
@@ -6,7 +7,7 @@
  * El contenido textual ahora es dinámico según el idioma seleccionado.
  */
 import React from 'react';
-import { useApp } from '../contexts/AppContext.tsx';
+import { useApp } from '../contexts/AppContext';
 
 const Contact: React.FC = () => {
   const { t } = useApp();
