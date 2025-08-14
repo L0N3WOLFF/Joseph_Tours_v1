@@ -1,4 +1,3 @@
-
 /**
  * @file Hero.tsx
  * @description Componente principal de la sección "Hero" o banner de inicio.
@@ -7,7 +6,7 @@
  * El contenido de texto ahora es dinámico según el idioma seleccionado.
  */
 import React, { useState, useEffect, useMemo } from 'react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '../contexts/AppContext.tsx';
 
 const Hero: React.FC = () => {
   const { t } = useApp();

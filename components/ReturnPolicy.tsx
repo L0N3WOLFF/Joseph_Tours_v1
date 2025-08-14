@@ -1,4 +1,3 @@
-
 /**
  * @file ReturnPolicy.tsx
  * @description Componente que muestra las políticas de devolución y cancelación del servicio.
@@ -7,7 +6,7 @@
  * El texto se carga dinámicamente según el idioma seleccionado.
  */
 import React, { useState } from 'react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '../contexts/AppContext.tsx';
 
 const ReturnPolicy: React.FC = () => {
   const { t } = useApp();

@@ -1,4 +1,3 @@
-
 /**
  * @file Gallery.tsx
  * @description Componente de la galería de imágenes interactiva.
@@ -7,8 +6,8 @@
  * La sección es colapsable y está visible por defecto.
  */
 import React, { useState, useMemo } from 'react';
-import { useApp } from '../contexts/AppContext';
-import GalleryModal from './GalleryModal';
+import { useApp } from '../contexts/AppContext.tsx';
+import GalleryModal from './GalleryModal.tsx';
 
 const Gallery: React.FC = () => {
   const { t } = useApp();

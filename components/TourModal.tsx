@@ -5,8 +5,8 @@
  * horarios y notas adicionales.
  */
 import React, { useEffect } from 'react';
-import { useApp } from '../contexts/AppContext';
-import type { Tour } from '../types';
+import { useApp } from '../contexts/AppContext.tsx';
+import type { Tour } from '../types.ts';
 
 interface TourModalProps {
   tour: Tour | null;

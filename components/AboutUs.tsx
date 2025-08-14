@@ -1,4 +1,3 @@
-
 /**
  * @file AboutUs.tsx
  * @description Componente de la sección "Sobre Nosotros".
@@ -8,7 +7,7 @@
  * El diseño ha sido reestructurado para mejorar el balance y la legibilidad.
  */
 import React from 'react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '../contexts/AppContext.tsx';
 
 const AboutUs: React.FC = () => {
   const { t } = useApp();

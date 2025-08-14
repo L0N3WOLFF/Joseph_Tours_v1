@@ -1,4 +1,3 @@
-
 /**
  * @file TripPlanner.tsx
  * @description Componente para mostrar y filtrar los tours disponibles.
@@ -6,9 +5,9 @@
  * Permite filtrar los tours por categoría: Todos, Pasadía, Reservas y Estadía.
  */
 import React, { useState, useMemo } from 'react';
-import { useApp } from '../contexts/AppContext';
-import TourModal from './TourModal'; 
-import type { Tour } from '../types';
+import { useApp } from '../contexts/AppContext.tsx';
+import TourModal from './TourModal.tsx'; 
+import type { Tour } from '../types.ts';
 
 const TripPlanner: React.FC = () => {
     const { t } = useApp();
