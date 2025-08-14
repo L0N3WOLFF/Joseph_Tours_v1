@@ -1,4 +1,3 @@
-
 /**
  * @file AppContext.tsx
  * @description Define el proveedor de contexto global `AppProvider` y el hook `useApp`.
@@ -8,7 +7,7 @@
  * - El estado de scroll para efectos dinámicos en la UI (ej. en el Header).
  */
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
-import { translations, TranslationKeys } from '../lib/translations';
+import { translations, TranslationKeys } from '../lib/translations.ts';
 
 // Define los tipos de datos para el contexto.
 type Language = 'es' | 'en';

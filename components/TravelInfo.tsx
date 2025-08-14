@@ -1,4 +1,3 @@
-
 /**
  * @file TravelInfo.tsx
  * @description Componente que muestra la Información General del Viaje.
@@ -7,7 +6,7 @@
  * El texto se carga dinámicamente según el idioma seleccionado.
  */
 import React, { useState } from 'react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '../contexts/AppContext.tsx';
 
 const TravelInfo: React.FC = () => {
   const { t } = useApp();

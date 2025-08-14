@@ -1,4 +1,3 @@
-
 /**
  * @file Footer.tsx
  * @description Componente del pie de página.
@@ -6,7 +5,7 @@
  * Ahora incluye una opción para cambiar el idioma del sitio.
  */
 import React from 'react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '../contexts/AppContext.tsx';
 
 const Footer: React.FC = () => {
   // Hook para acceder al contexto global (traducciones, idioma actual y función para cambiarlo).
