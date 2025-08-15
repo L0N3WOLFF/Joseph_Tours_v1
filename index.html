@@ -25,11 +25,19 @@
   }
 }
 </script>
+<!-- Add Babel Standalone to transpile TSX in the browser -->
+<script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-white">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!--
+      Change script type to "text/babel" to let Babel handle it.
+      This bypasses the browser's strict MIME type check for modules.
+      Babel will automatically handle JSX and module syntax.
+      The data-presets attribute tells Babel to use React and TypeScript presets.
+    -->
+    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
